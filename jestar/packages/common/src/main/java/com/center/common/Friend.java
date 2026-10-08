@@ -1,0 +1,14 @@
+package com.center.common;
+
+public class Friend {
+
+    public String name;
+
+    public Friend(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return this.name;
+    }
+}
