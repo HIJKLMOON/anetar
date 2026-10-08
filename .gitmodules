@@ -1,6 +1,6 @@
 [submodule "jestar/apps/island"]
 	path = jestar/apps/island
-	url = git@github.com:HIJKLMNTAR/island.git
+	url = git@github.com:HIJKLMOON/island.git
 [submodule "jestar/apps/whirlwind"]
 	path = jestar/apps/whirlwind
-	url = git@github.com:HIJKLMNTAR/whirlwind.git
+	url = git@github.com:HIJKLMOON/whirlwind.git
