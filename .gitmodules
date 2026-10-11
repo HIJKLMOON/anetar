@@ -1,6 +1,16 @@
 [submodule "jestar/apps/island"]
 	path = jestar/apps/island
 	url = git@github.com:HIJKLMOON/island.git
+	branch = main
 [submodule "jestar/apps/whirlwind"]
 	path = jestar/apps/whirlwind
 	url = git@github.com:HIJKLMOON/whirlwind.git
+	branch = main
+[submodule "guitar/apps/lighthouse"]
+	path = guitar/apps/lighthouse
+	url = git@github.com:HIJKLMOON/lighthouse.git
+	branch = main
+[submodule "ane/apps/duye"]
+	path = ane/apps/duye
+	url = git@github.com:HIJKLMOON/duye.git
+	branch = main

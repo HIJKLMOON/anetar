@@ -1,0 +1,39 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries, built with `go test -c`
+*.test
+
+# Profiling output
+*.prof
+
+# Delve debugger
+__debug_bin*
+
+# Coverage output
+*.out
+coverage.html
+
+# Build output
+/bin/
+/dist/
+
+# Dependency directory (uncomment to vendor dependencies)
+# /vendor/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Note: go.work and go.work.sum are intentionally committed as the workspace
+# definition for this monorepo, so they are not ignored here.
