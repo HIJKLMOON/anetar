@@ -1,17 +1,29 @@
 {
   "$schema": "https://v2-11-7.turborepo.dev/schema.json",
   "ui": "tui",
+  "globalEnv": ["NEXT_PUBLIC_*", "VITE_*"],
+  "globalDependencies": ["pnpm-workspace.yaml", "pnpm-lock.yaml"],
   "tasks": {
     "build": {
       "dependsOn": ["^build"],
       "inputs": ["$TURBO_DEFAULT$", ".env*"],
-      "outputs": [".next/**", "!.next/cache/**", "!.next/dev/**"]
+      "outputs": [".next/**", "!.next/cache/**", "!.next/dev/**", "dist/**"]
     },
     "lint": {
       "dependsOn": ["^lint"]
     },
     "check-types": {
       "dependsOn": ["^check-types"]
+    },
+    "start": {
+      "dependsOn": ["build"],
+      "cache": false,
+      "persistent": true
+    },
+    "preview": {
+      "dependsOn": ["build"],
+      "cache": false,
+      "persistent": true
     },
     "dev": {
       "cache": false,

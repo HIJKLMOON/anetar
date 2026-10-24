@@ -12,14 +12,14 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "format": "prettier --write \"**/*.{js,jsx,mjs,cjs,ts,tsx,json,css,md,yaml,yml}\"",
     "check-types": "turbo run check-types",
     "progress": "node scripts/progress.mjs"
   },
   "devDependencies": {
-    "prettier": "3.9.6",
-    "turbo": "^2.11.7",
-    "typescript": "7.0.2"
+    "prettier": "catalog:",
+    "turbo": "catalog:",
+    "typescript": "catalog:"
   },
   "devEngines": {
     "packageManager": {

@@ -1,0 +1,15 @@
+**/node_modules
+**/.next
+**/.turbo
+**/dist
+**/out
+**/build
+**/coverage
+**/.git
+**/.DS_Store
+**/*.pem
+npm-debug.log*
+.gitmodules
+Dockerfile
+.dockerignore
+README.md
