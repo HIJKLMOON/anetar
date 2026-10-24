@@ -14,3 +14,7 @@
 	path = ane/apps/duye
 	url = git@github.com:HIJKLMOON/duye.git
 	branch = main
+[submodule "ane/apps/ceramics"]
+	path = ane/apps/ceramics
+	url = git@github.com:HIJKLMOON/ceramics.git
+	branch = main
